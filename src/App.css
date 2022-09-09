@@ -1,38 +1,66 @@
-.App {
+.top {
+  height: 100px;
+  border-bottom: 5px solid rgb(29, 33, 93);
+}
+
+.bottom {
+  width: 50%;
+  margin: auto;
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  border-left: 5px solid rgb(162, 252, 162);
+  border-right: 5px solid rgb(162, 252, 162);
+}
+
+h1 {
+  margin: 0;
+  padding-top: 25px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  width: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.react-simple-keyboard, .simple-keyboard .hg-theme-default .hg-layout-default {
+  background-color: rgb(29, 33, 93);
+  height: 345px;
+}
+
+.hg-theme-default .hg-button {
+  height: 80px;
+}
+
+.hg-button, .hg-standardBtn {
+  color: rgb(29, 33, 93);
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.hg-button:hover, .hg-standardBtn:hover {
+  background-color:rgb(162, 252, 162);
+}
+
+.hg-row {
+  height: 80px;
+}
+
+@media only screen and (max-width: 600px){
+  .hg-theme-default .hg-button {
+    height: 50px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .hg-row {
+    height: 50px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .react-simple-keyboard, .simple-keyboard .hg-theme-default .hg-layout-default {
+    background-color: rgb(22, 25, 71);
+    height: 225px;
   }
 }
