@@ -4,7 +4,7 @@ Using PinInput from react-pin-input and Keyboard from react-simple-keyboard.
 
 ## How to get it running
 
-Clone the app and run
+Clone the app and run:
 
 ### npm install
 
