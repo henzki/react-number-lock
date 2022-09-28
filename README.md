@@ -8,7 +8,7 @@ The lock opens with the correct 4-digit code.
 
 ## How to get it running
 
-Clone the app and run
+Clone the app and run:
 
 ### npm install
 
