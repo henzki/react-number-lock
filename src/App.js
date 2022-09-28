@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import PinInput from "react-pin-input";
 import Keyboard from "react-simple-keyboard";
 import "react-simple-keyboard/build/css/index.css";
-
 import correct from "./correct"
 import "./App.css";
 
